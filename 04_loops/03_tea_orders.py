@@ -1,4 +1,4 @@
-orders = ['chai', 'coffee']
+orders = ["hitesh", "Aman", "Becky", "Carlos"]
 
-for names in orders:
-    print(f"Your order is ready of {orders}")
+for name in orders:
+    print(f"Order ready for {name}")

@@ -1,15 +1,16 @@
-# Decorators let you add extra functionality to a function
-# without editing the function itself.
-
-def decorator_func(original_func):
+from functools import wraps
+def my_decorator(func):
+    @wraps(func)
     def wrapper():
-        print("Something before the function runs")
-        original_func()
-        print("Something after the function runs")
+        print("Before function runs")
+        func()
+        print("After function runs")
     return wrapper
 
-@decorator_func
-def say_hello():
-    print("Hello!")
+@my_decorator
+def greet():
+    print("Hello from decorators class from chaicode")
 
-say_hello()
+
+greet()
+print(greet.__name__)

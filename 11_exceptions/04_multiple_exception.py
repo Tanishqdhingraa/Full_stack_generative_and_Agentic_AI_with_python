@@ -9,4 +9,4 @@ def process_order(item, quantity):
         print("Quantity must be in number")
 
 process_order("ginger", 2)
-process_order("masala", 3)
+process_order("masala", "two")

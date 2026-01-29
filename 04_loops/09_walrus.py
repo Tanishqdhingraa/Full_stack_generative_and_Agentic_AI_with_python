@@ -7,8 +7,8 @@
 
 value = 13
 
-if (remainder := value % 3):
-    print(f"the remainder is {remainder}")
+if remainder := value % 5:
+    print(f"Not divisible, remainder is {remainder}")
 
 
 # available_sizes = ["small", "medium", "large"]

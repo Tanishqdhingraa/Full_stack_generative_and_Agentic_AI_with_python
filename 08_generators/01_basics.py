@@ -22,8 +22,3 @@ print(next(chai))
 print(next(chai))
 print(next(chai))
 # print(next(chai)) # gives error
-
-
-# generators -> save memory 
-# used when we dont result immediately 
-# yield is used for generator

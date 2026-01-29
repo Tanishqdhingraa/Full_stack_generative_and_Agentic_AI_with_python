@@ -10,5 +10,3 @@ for flavour in flavours:
     print(f"{flavour} item found")
     
 print(f"Out side of loop")
-
-
