@@ -1,4 +1,7 @@
 # Interger
+# This code teaches Python arithmetic with integers, 
+# which forms the mathematical backbone of model training, scoring, scaling, and 
+# decision-making in both Generative AI and Agentic AI.
 
 black_tea_grams = 14
 ginger_grams = 3
